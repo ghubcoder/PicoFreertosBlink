@@ -35,8 +35,8 @@ cd ~/pico/
 git clone https://github.com/ghubcoder/PicoFreertosBlink.git
 cd PicoFreertosBlink/
 mkdir build && cd build/
-export PICO_SDK_PATH=../../pico-sdk
-export FREERTOS_KERNEL_PATH=../../FreeRTOS-Kernel
+export PICO_SDK_PATH=~/pico/pico-sdk
+export FREERTOS_KERNEL_PATH=~/pico/FreeRTOS-Kernel
 cmake ..
 make
 ```
